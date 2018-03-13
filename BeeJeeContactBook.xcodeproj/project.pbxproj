@@ -7,23 +7,39 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1D42EE13205869770011FBB1 /* InitialData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D42EE12205869770011FBB1 /* InitialData.swift */; };
+		1D42EE15205869E60011FBB1 /* InitialData.json in Resources */ = {isa = PBXBuildFile; fileRef = 1D42EE14205869E60011FBB1 /* InitialData.json */; };
+		1D656BE920568BB40093BB2B /* Contact+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D656BE720568BB40093BB2B /* Contact+CoreDataClass.swift */; };
+		1D656BEA20568BB40093BB2B /* Contact+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D656BE820568BB40093BB2B /* Contact+CoreDataProperties.swift */; };
+		1D656BEF20568D2C0093BB2B /* ContactListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D656BEE20568D2C0093BB2B /* ContactListViewController.swift */; };
+		1D656BF120568D4E0093BB2B /* ContactListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D656BF020568D4E0093BB2B /* ContactListPresenter.swift */; };
+		1DC2C91C2056A41600B61EC0 /* ContactDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DC2C91B2056A41600B61EC0 /* ContactDetailViewController.swift */; };
+		1DC2C91E2056A43600B61EC0 /* ContactDetailPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DC2C91D2056A43600B61EC0 /* ContactDetailPresenter.swift */; };
 		1DF6861320508B4700547E7D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DF6861220508B4700547E7D /* AppDelegate.swift */; };
-		1DF6861520508B4700547E7D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DF6861420508B4700547E7D /* ViewController.swift */; };
 		1DF6861820508B4700547E7D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1DF6861620508B4700547E7D /* Main.storyboard */; };
 		1DF6861B20508B4700547E7D /* BeeJeeContactBook.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1DF6861920508B4700547E7D /* BeeJeeContactBook.xcdatamodeld */; };
 		1DF6861D20508B4700547E7D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1DF6861C20508B4700547E7D /* Assets.xcassets */; };
 		1DF6862020508B4700547E7D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1DF6861E20508B4700547E7D /* LaunchScreen.storyboard */; };
+		1DF68629205090AE00547E7D /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DF68628205090AE00547E7D /* CoreDataStack.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1D42EE12205869770011FBB1 /* InitialData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitialData.swift; sourceTree = "<group>"; };
+		1D42EE14205869E60011FBB1 /* InitialData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = InitialData.json; sourceTree = "<group>"; };
+		1D656BE720568BB40093BB2B /* Contact+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Contact+CoreDataClass.swift"; sourceTree = "<group>"; };
+		1D656BE820568BB40093BB2B /* Contact+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Contact+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		1D656BEE20568D2C0093BB2B /* ContactListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactListViewController.swift; sourceTree = "<group>"; };
+		1D656BF020568D4E0093BB2B /* ContactListPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactListPresenter.swift; sourceTree = "<group>"; };
+		1DC2C91B2056A41600B61EC0 /* ContactDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactDetailViewController.swift; sourceTree = "<group>"; };
+		1DC2C91D2056A43600B61EC0 /* ContactDetailPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactDetailPresenter.swift; sourceTree = "<group>"; };
 		1DF6860F20508B4700547E7D /* BeeJeeContactBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BeeJeeContactBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DF6861220508B4700547E7D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1DF6861420508B4700547E7D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		1DF6861720508B4700547E7D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1DF6861A20508B4700547E7D /* BeeJeeContactBook.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BeeJeeContactBook.xcdatamodel; sourceTree = "<group>"; };
 		1DF6861C20508B4700547E7D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1DF6861F20508B4700547E7D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1DF6862120508B4700547E7D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1DF68628205090AE00547E7D /* CoreDataStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +53,44 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1D42EE11205869570011FBB1 /* InitialData */ = {
+			isa = PBXGroup;
+			children = (
+				1D42EE12205869770011FBB1 /* InitialData.swift */,
+			);
+			path = InitialData;
+			sourceTree = "<group>";
+		};
+		1D656BEB20568C810093BB2B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1DF6861620508B4700547E7D /* Main.storyboard */,
+				1DF6861C20508B4700547E7D /* Assets.xcassets */,
+				1DF6861E20508B4700547E7D /* LaunchScreen.storyboard */,
+				1DF6862120508B4700547E7D /* Info.plist */,
+				1D42EE14205869E60011FBB1 /* InitialData.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		1D656BEC20568CEA0093BB2B /* ContactsList */ = {
+			isa = PBXGroup;
+			children = (
+				1D656BEE20568D2C0093BB2B /* ContactListViewController.swift */,
+				1D656BF020568D4E0093BB2B /* ContactListPresenter.swift */,
+			);
+			path = ContactsList;
+			sourceTree = "<group>";
+		};
+		1D656BED20568D000093BB2B /* ContactDetail */ = {
+			isa = PBXGroup;
+			children = (
+				1DC2C91B2056A41600B61EC0 /* ContactDetailViewController.swift */,
+				1DC2C91D2056A43600B61EC0 /* ContactDetailPresenter.swift */,
+			);
+			path = ContactDetail;
+			sourceTree = "<group>";
+		};
 		1DF6860620508B4700547E7D = {
 			isa = PBXGroup;
 			children = (
@@ -56,15 +110,41 @@
 		1DF6861120508B4700547E7D /* BeeJeeContactBook */ = {
 			isa = PBXGroup;
 			children = (
+				1D656BEB20568C810093BB2B /* Resources */,
+				1DF6862A2050912E00547E7D /* ViewControllers */,
+				1DF686272050908900547E7D /* Model */,
 				1DF6861220508B4700547E7D /* AppDelegate.swift */,
-				1DF6861420508B4700547E7D /* ViewController.swift */,
-				1DF6861620508B4700547E7D /* Main.storyboard */,
-				1DF6861C20508B4700547E7D /* Assets.xcassets */,
-				1DF6861E20508B4700547E7D /* LaunchScreen.storyboard */,
-				1DF6862120508B4700547E7D /* Info.plist */,
-				1DF6861920508B4700547E7D /* BeeJeeContactBook.xcdatamodeld */,
 			);
 			path = BeeJeeContactBook;
+			sourceTree = "<group>";
+		};
+		1DF686272050908900547E7D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1D42EE11205869570011FBB1 /* InitialData */,
+				1DF6862F2050919100547E7D /* Contact */,
+				1DF68628205090AE00547E7D /* CoreDataStack.swift */,
+				1DF6861920508B4700547E7D /* BeeJeeContactBook.xcdatamodeld */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1DF6862A2050912E00547E7D /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				1D656BED20568D000093BB2B /* ContactDetail */,
+				1D656BEC20568CEA0093BB2B /* ContactsList */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		1DF6862F2050919100547E7D /* Contact */ = {
+			isa = PBXGroup;
+			children = (
+				1D656BE720568BB40093BB2B /* Contact+CoreDataClass.swift */,
+				1D656BE820568BB40093BB2B /* Contact+CoreDataProperties.swift */,
+			);
+			path = Contact;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,6 +206,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1D42EE15205869E60011FBB1 /* InitialData.json in Resources */,
 				1DF6862020508B4700547E7D /* LaunchScreen.storyboard in Resources */,
 				1DF6861D20508B4700547E7D /* Assets.xcassets in Resources */,
 				1DF6861820508B4700547E7D /* Main.storyboard in Resources */,
@@ -139,9 +220,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1DF6861520508B4700547E7D /* ViewController.swift in Sources */,
+				1D656BEA20568BB40093BB2B /* Contact+CoreDataProperties.swift in Sources */,
 				1DF6861B20508B4700547E7D /* BeeJeeContactBook.xcdatamodeld in Sources */,
 				1DF6861320508B4700547E7D /* AppDelegate.swift in Sources */,
+				1DC2C91C2056A41600B61EC0 /* ContactDetailViewController.swift in Sources */,
+				1D42EE13205869770011FBB1 /* InitialData.swift in Sources */,
+				1DF68629205090AE00547E7D /* CoreDataStack.swift in Sources */,
+				1DC2C91E2056A43600B61EC0 /* ContactDetailPresenter.swift in Sources */,
+				1D656BF120568D4E0093BB2B /* ContactListPresenter.swift in Sources */,
+				1D656BEF20568D2C0093BB2B /* ContactListViewController.swift in Sources */,
+				1D656BE920568BB40093BB2B /* Contact+CoreDataClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,7 +368,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = ZQ4YCF33U4;
-				INFOPLIST_FILE = BeeJeeContactBook/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/BeeJeeContactBook/Resources/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.efimenko.BeeJeeContactBook;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -295,7 +384,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = ZQ4YCF33U4;
-				INFOPLIST_FILE = BeeJeeContactBook/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/BeeJeeContactBook/Resources/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.efimenko.BeeJeeContactBook;
 				PRODUCT_NAME = "$(TARGET_NAME)";
